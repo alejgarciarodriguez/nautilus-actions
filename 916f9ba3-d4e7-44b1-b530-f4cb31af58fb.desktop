@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Action
+Name[es_ES]=Abrir con VS Code
+Name[es]=Abrir con VS Code
+Icon[es_ES]=/snap/code/current/snap/gui/com.visualstudio.code.png
+Icon[es]=/snap/code/current/snap/gui/com.visualstudio.code.png
+TargetLocation=true
+ToolbarLabel[es_ES]=Abrir con VS Code
+ToolbarLabel[es]=Abrir con VS Code
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+Name[es_ES]=Perfil predeterminado
+Name[es]=Perfil predeterminado
+Exec=/snap/bin/code %B

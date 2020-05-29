@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Action
+Name[es_ES]=Abrir terminal aquí
+Name[es]=Abrir terminal aquí
+TargetLocation=true
+ToolbarLabel[es_ES]=Abrir terminal aquí
+ToolbarLabel[es]=Abrir terminal aquí
+Profiles=profile-zero;
+
+[X-Action-Profile profile-zero]
+Name[es_ES]=Perfil predeterminado
+Name[es]=Perfil predeterminado
+Exec=/usr/bin/tilix --working-directory=%d/%b

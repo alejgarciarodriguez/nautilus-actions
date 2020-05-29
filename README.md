@@ -1,8 +1,14 @@
 # Nautilus actions
 
-Install [filemanager-actions](https://github.com/GNOME/filemanager-actions) (version 3+) in Ubuntu 18+ and import .desktop files using the UI.
+Install filemanager-actions for ubuntu 18+
 
 ```bash
-sudo apt install filemanager-actions
+sudo add-apt-repository ppa:daniel-marynicz/filemanager-actions
+sudo apt-get install filemanager-actions-nautilus-extension
 ```
 
+Open the program "fma-config-tool" in the terminal and import the .desktop file using the UI.
+
+Go to "Edit" > "Preferences" and uncheck "Create a root FileManager-Actions menu"
+
+Save changes before close. If changes are not applying, restart nautilus with "nautilus -q"
